@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Laboratorio de Accesibilidad</title>
+
+    <style>
+            
+
+        header {
+            background-color: #1f4e79;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin: 0 0 10px 0;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+
+
+        /* ESTILOS DEL PROBLEMA 1 ========================= */
+
+        button {
+            color: white;
+            background-color: #1f4e79;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        article {
+            padding: 10px;
+        }
+
+        
+        /* ESTILOS DEL PROBLEMA 2 ========================= */
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.4;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 10px 0 0 0;
+        }
+
+        form li {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-bottom: 18px;
+        }
+
+        form label {
+            width: 110px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Laboratorio de Accesibilidad</h1>
+
+        <p><strong>Estudiantes:</strong>
+            Ian Vásquez y Roberto De Gracia</p>
+
+    </header>
+
+
+    <main>
+
+
+        <!--  PROBLEMA 1 ========================================= -->
+
+        <section>
+            <h3>Problema 1</h3>
+            <article>
+
+                <h1>Need help?</h1>
+
+                <p>If you have any problems with our products, our
+                support center can offer you all the help you need,
+                whether you want:</p>
+
+                <ol>
+                    <li>Advice choosing a new product</li>
+                    <li>Tech support on an existing product</li>
+                    <li>Refund and cancellation assistance</li>
+                </ol>
+
+                    <h2>Contact us now</h2>
+
+                    <p>Our help center contains live chat, e-mail
+                    addresses, and phone numbers.</p>
+
+                    <button type="button"> Find Contact Details</button>
+
+                    <h2>Find out answers</h2>
+
+                    <p>Our Forums section contains a large knowledge
+                    base of searchable previously asked questions,
+                    and you can always ask a new question if you
+                    can't find the answer you're looking for.</p>
+
+                    <button type="button">Access Forums</button>
+            </article>
+        </section>
+
+
+
+        <!--  PROBLEMA 2 ========================================= -->
+        <section>
+            <h3>Problema 2</h3>
+            <form>
+                <fieldset>
+
+                    <legend>Personal information</legend>
+
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </li>
+
+                        <li>
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age">
+                        </li>
+
+                        <li>
+                            <label for="email">Email address </label>
+                            <input type="email" id="email" name="email">
+                        </li>
+                    </ul>
+
+                </fieldset>
+            </form>
+        </section>
+
+
+
+        <!-- =========================================
+             PROBLEMA 3
+             ========================================= -->
+
+        <section>
+            <h3>Problema 3</h3>
+            <p> For more information about our activities, check out
+                our
+                <a href="/fundraising">fundraising page</a>,
+                <a href="/education">education page</a>,
+                <a href="/resources/sponsorship.pdf">sponsorship pack (PDF, 8 MB)</a>,
+                and
+                <a href="/resources/assessments.docx">assessment sheets (Word document)</a>.
+            </p>
+        </section>
+
+    </main>
+
+</body>
+</html>
